@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>메모</title>
+    <style>
+      .container-todo {
+        /* border: 1px solid black; */
+        display: inline-block;
+        margin: 50px;
+      }
+
+      p {
+        display: inline-block;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container-todo">
+      <h1>오늘의 식단</h1>
+      <input
+        class="input-todo"
+        type="text"
+        placeholder="오늘 무엇을 먹었나요?"
+      />
+      <button class="create-todo" type="button">저장</button>
+      <h2>오늘 먹은 음식</h2>
+      <ul class="list-todo"></ul>
+      <button class="delete-all" type="button">전체삭제</button>
+      <button class="delete" type="button">삭제</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
