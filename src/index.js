@@ -70,6 +70,8 @@ function handleCreateTodo(event) {
   // todoList Element에 todo 넣기
   const li = makeTodoEl(todo);
   todoListEl.append(li);
+
+  writeTodo.value = "";
 }
 
 function localStorageSave(todoList) {
