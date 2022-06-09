@@ -20,7 +20,6 @@ class Todo {
 
   getUniqueId() {
     const alphabet = ["B", "A", "E", "K", "I", "H", "U", "N"];
-    debugger;
     return (
       parseInt(Math.random() * 1000000000000000) +
       alphabet[Math.ceil(((Math.random() * 10) % alphabet.length) - 1)]
